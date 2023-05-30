@@ -1,0 +1,14 @@
+@mixin border($position, $size: 1px, $color: black) {
+    @if $position == 'top' {
+        border-top: $size solid $color;
+    }
+    @if $position == 'right' {
+        border-right: $size solid $color;
+    }
+    @if $position == 'bottom' {
+        border-bottom: $size solid $color;
+    }
+    @if $position == 'left' {
+        border-left: $size solid $color;
+    }
+}

@@ -1,0 +1,10 @@
+.chart-wrapper {
+    height: 300px;
+}
+
+.time-chart {
+    @media (min-width: 576px) {
+        @include border(bottom, 1px, $gray)
+    }
+
+}
